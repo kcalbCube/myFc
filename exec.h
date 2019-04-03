@@ -1,3 +1,5 @@
+//Copyright 2019 Eugene Pavlov
+
 #ifndef EXEC_H
 #define EXEC_H
 #include <map>
