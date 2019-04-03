@@ -1,3 +1,5 @@
+//Copyright 2019 Eugene Pavlov
+
 #ifndef MEMORY_H
 #define MEMORY_H
 
