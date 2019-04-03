@@ -1,6 +1,6 @@
-// Code is very bad. Soon i will rewrite it.
+//Copyright 2019 Eugene Pavlov
 
-//#include "pch.h" /* Fucking VS */
+//#include "pch.h" 
 #define _CRT_SECURE_NO_WARNINGS
 #include <initializer_list>
 unsigned char start = 0;
