@@ -55,46 +55,6 @@ public:
 		return str == value;
 	}
 
-	Var& operator=(int value)
-	{
-		if (itExist != 1)
-			throw exception("Не найдена переменная");
-		val = value;
-		varType = INT;
-
-		return *this;
-	}
-
-	Var& operator=(double value)
-	{
-		if (itExist != 1)
-			throw exception("Не найдена переменная");
-		dVal = value;
-		varType = FLOAT;
-
-		return *this;
-	}
-
-	Var& operator=(const string& value)
-	{
-		if (itExist != 1)
-			throw exception("Не найдена переменная");
-		str = move(value);
-		varType = STRING;
-
-		return *this;
-	}
-
-	Var& operator=(nullptr_t value)
-	{
-		if (itExist != 1)
-			throw exception("Не найдена переменная");
-		(void)value;
-		varType = NIL;
-
-		return *this;
-	}
-
 };
 
 char nothing[1024];
