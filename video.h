@@ -1,3 +1,5 @@
+//Copyright 2019 Eugene Pavlov
+
 #ifndef VIDEO_H
 #define VIDEO_H
 #include "memory.h"
