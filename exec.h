@@ -471,8 +471,6 @@ void delay(const string& str)
 		delay = vars[delayMillis].val;
 	else
 		delay = atoi(delayMillis);
-	for (register int i = 0; i < videoRamSize; ++i)
-		ram[i] = delay;
 	SDL_Delay(delay);
 }
 
